@@ -1,0 +1,53 @@
+.mdl-layout__drawer{
+	box-shadow: none;
+	background: pink;
+}
+
+.full-page{
+	display: block;
+	margin: auto;
+	width: 80%;
+	margin-top: 1.5em; /*sizing based on size of font... i think. check up on this*/
+}
+
+.mdl-cell.mdl-cell--8-col{
+	display: block;
+	margin: auto;
+}
+
+.grid-title: hover, .grid-img: hover{
+	cursor: pointer;
+}
+
+.grid-title{
+	text-decoration: underline;
+	color: black;
+}
+
+.grid-title:hover{
+	background-color: black;
+	color: pink;
+	text-decoration: none;
+	transition: background-color 1s, color 1s, text-decoration1s;
+}
+
+.grid-img{
+	filter: grayscale(1);
+}
+
+.grid-img:hover{
+	filter: (0);
+	transition: filter 1s;
+}
+
+/*this code will work wherever and make video rescalabel fairly well*/
+.video-wrap{
+	position: relative;
+	padding-bottom: 56.25%
+	
+
+}
+
+.video-wrap iframe{
+
+}
